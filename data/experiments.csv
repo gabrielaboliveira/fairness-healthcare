@@ -1,0 +1,6 @@
+Parameter,Value
+split_rate,0.2
+seed,42
+target_name,target
+datasets,['4_heart_desease']
+sen_var,['sex']

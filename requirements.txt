@@ -1,0 +1,30 @@
+# Dependências do projeto (ambiente conda "fairness-research", Python 3.12)
+# Lista curada a partir dos imports reais em auxiliar/, auxiliar_analysis/ e experiments/.
+# Instalação:  pip install -r requirements.txt
+
+# --- Núcleo científico ---
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+statsmodels==0.14.2
+
+# --- Visualização ---
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# --- Fairness / mitigação de viés ---
+aif360==0.6.1
+tensorflow==2.17.0        # usado pelo adversarial debiasing (aif360)
+pot==0.9.5                # optimal transport (import ot) — wasserstein_fairness
+
+# --- Dados / utilidades ---
+ucimlrepo==0.0.7          # download dos datasets UCI
+pycol-complexity==0.0.8   # métricas de complexidade (auxiliar/utils.py)
+tqdm==4.66.4
+
+# --- Opcional (apenas para o diagrama de RQs em auxiliar_analysis/structure.py) ---
+# graphviz                # requer também o binário Graphviz instalado no sistema
+
+# Nota: fairgbm e wasserstein_fairness estão incluídos no próprio repositório
+# (build local via setup_fairgbm.bat); não são instalados por pip.

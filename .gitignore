@@ -1,0 +1,46 @@
+# Dados grandes
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Notebooks / artefatos
+.ipynb_checkpoints/
+.DS_Store
+
+# build artifacts
+build/
+
+# notebook backups
+*.ipynb.backup
+experiments/backup/
+
+# installers
+*.msi
+
+# python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# results
+experiments/results/
+experiments/results_compact/
+
+# AI Tools
+.claude/
+
+# envs
+.conda/
+.venv/
+venv/
+env/
+
+# notebooks
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
